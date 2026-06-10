@@ -1,10 +1,11 @@
 ![Shearable Vines](https://imgur.com/yv3lI55.png)
 
-![](https://img.shields.io/badge/Loader-Fabric-313e51?style=for-the-badge)
-![](https://img.shields.io/badge/MC-26.1--26.1.1%20|%201.21%20|%201.20%20|%201.19-313e51?style=for-the-badge)
+![](https://img.shields.io/badge/Loader-Fabric%20|%20Forge%20|%20NeoForge-313e51?style=for-the-badge)
+![](https://img.shields.io/badge/MC-26.1--26.1.2%20|%201.21%20|%201.20%20|%201.19-313e51?style=for-the-badge)
 ![](https://img.shields.io/badge/Side-Client%20+%20Server-313e51?style=for-the-badge)
 
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/shearable-vines?style=flat&logo=modrinth&color=00AF5C)](https://modrinth.com/mod/shearable-vines)
+[![CurseForge Downloads](https://img.shields.io/curseforge/dt/1502548?style=flat&logo=curseforge&color=F16436)](https://www.curseforge.com/minecraft/mc-mods/shearable-vines)
 [![GitHub Repo stars](https://img.shields.io/github/stars/Roundaround/mc-fabric-shearable-vines?style=flat&logo=github)](https://github.com/Roundaround/mc-fabric-shearable-vines)
 
 [![Support me on Ko-fi](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/donate/kofi-singular-alt_vector.svg)](https://ko-fi.com/roundaround)
