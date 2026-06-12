@@ -10,7 +10,7 @@ allay {
   homepage.set("https://modrinth.com/mod/shearable-vines")
   repository.set("https://github.com/Roundaround/mc-shearable-vines")
   issues.set("https://github.com/Roundaround/mc-shearable-vines/issues")
-  logoFile.set("assets/shearablevines/icon.png")
+  logoFile.set("assets/shearablevines/banner.png")
 
   modrinth {
     projectId.set("shearable-vines")
@@ -22,6 +22,7 @@ allay {
 
   release {
     versionType.set("release")
-    sourcesJar.set(true)
+    minecraftVersions("26.1".."26.1.2")
+    changelogDir.set(file("changelogs"))
   }
 }
