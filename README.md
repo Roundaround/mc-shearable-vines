@@ -1,7 +1,7 @@
 ![Shearable Vines](https://imgur.com/yv3lI55.png)
 
 ![](https://img.shields.io/badge/Loader-Fabric%20|%20Forge%20|%20NeoForge-313e51?style=for-the-badge)
-![](https://img.shields.io/badge/MC-26.1--26.1.2%20|%201.21%20|%201.20%20|%201.19-313e51?style=for-the-badge)
+![](https://img.shields.io/badge/MC-26.2%20|%2026.1%20|%201.21%20|%201.20%20|%201.19-313e51?style=for-the-badge)
 ![](https://img.shields.io/badge/Side-Client%20+%20Server-313e51?style=for-the-badge)
 
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/shearable-vines?style=flat&logo=modrinth&color=00AF5C)](https://modrinth.com/mod/shearable-vines)
