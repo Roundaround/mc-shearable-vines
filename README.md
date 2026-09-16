@@ -1,21 +1,37 @@
 ![Shearable Vines](https://imgur.com/yv3lI55.png)
 
-![](https://img.shields.io/badge/Loader-Fabric%20|%20Forge%20|%20NeoForge-313e51?style=for-the-badge)
-![](https://img.shields.io/badge/MC-26.3%20|%2026.2%20|%2026.1%20|%201.21%20|%201.20%20|%201.19-313e51?style=for-the-badge)
-![](https://img.shields.io/badge/Side-Client%20+%20Server-313e51?style=for-the-badge)
-
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/shearable-vines?style=flat&logo=modrinth&color=00AF5C)](https://modrinth.com/mod/shearable-vines)
 [![CurseForge Downloads](https://img.shields.io/curseforge/dt/1502548?style=flat&logo=curseforge&color=F16436)](https://www.curseforge.com/minecraft/mc-mods/shearable-vines)
 [![GitHub Repo stars](https://img.shields.io/github/stars/Roundaround/mc-shearable-vines?style=flat&logo=github)](https://github.com/Roundaround/mc-shearable-vines)
 
 [![Support me on Ko-fi](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/donate/kofi-singular-alt_vector.svg)](https://ko-fi.com/roundaround)
 
----
+Use shears on vines to stop them from growing, exactly like cave (glowberry) vines.
 
-Use shears on vines to stop them from growing! This allows vines to be sheared exactly like cave (glowberry) vines!
+## Installing
 
-## * Note about server compatibility *
+Grab a build from [Modrinth](https://modrinth.com/mod/shearable-vines) or [CurseForge](https://www.curseforge.com/minecraft/mc-mods/shearable-vines). Fabric builds need [Fabric API](https://modrinth.com/mod/fabric-api).
 
-Because this mod modifies block state, while playing on a server the mod needs to be installed both on the server AND the client! If you hop on to a server and notice all the blocks are wrong, either you have the mod and the server doesn't or vice-versa.
+## Building from source
 
-I've been investigating ways around this, but I don't have anything promising yet. For now, you'll simply have to install the mod in both places. Sorry!
+```sh
+./gradlew build
+```
+
+Dev runs are per loader: `:fabric:runClient`, `:neoforge:runClient`, `:forge:runClient`, and the `runServer` equivalents. Game tests run with `./gradlew :fabric:runClientGameTests` and `:fabric:runServerGameTests`.
+
+The build is an [Allay](https://github.com/Roundaround/allay) consumer and bundles [Trove](https://github.com/Roundaround/trove).
+
+Shared code lives in `common/` and is added to each loader subproject via `srcDir`.
+
+## Contributing
+
+Issues and pull requests are welcome at [the issue tracker](https://github.com/Roundaround/mc-shearable-vines/issues).
+
+- Branch from `main`, which tracks the newest supported Minecraft version. Older lines live on their own version-named branches.
+- Keep loader-agnostic code in `common/`; only genuinely loader-specific glue belongs in a loader subproject.
+- Run `./gradlew build` plus the Fabric game tests before opening a PR, and add a changelog entry under `changelogs/` named for the version you're targeting.
+
+## License
+
+[MIT](LICENSE)
